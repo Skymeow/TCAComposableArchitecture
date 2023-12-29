@@ -3,4 +3,684 @@
    uuid = "83CC45F3-4687-4A33-899C-AAC459E12E54"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1C34FDF2-9AAC-4BA0-8501-1058E9857177"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCASampleApp/PatientListReducer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1C34FDF2-9AAC-4BA0-8501-1058E9857177 - 5901798c2d0c96e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "1C34FDF2-9AAC-4BA0-8501-1058E9857177 - e25822365c6034e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "1C34FDF2-9AAC-4BA0-8501-1058E9857177 - 8f73eebf8f73d28f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "1C34FDF2-9AAC-4BA0-8501-1058E9857177 - 8f73eebf8f73d2ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "1C34FDF2-9AAC-4BA0-8501-1058E9857177 - 5901798c2d0c96ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "1C34FDF2-9AAC-4BA0-8501-1058E9857177 - e25822365c6034af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "1C34FDF2-9AAC-4BA0-8501-1058E9857177 - 8f73eebf8f73d249"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "140"
+                  endingLineNumber = "140"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "1C34FDF2-9AAC-4BA0-8501-1058E9857177 - 8f73eebf8f73d2a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "141"
+                  endingLineNumber = "141"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2AA3F10A-C3E4-440C-AF36-AF2A79CA8232"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCASampleApp/PatientListReducer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "2AA3F10A-C3E4-440C-AF36-AF2A79CA8232 - 38143cc6ca815818"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "2AA3F10A-C3E4-440C-AF36-AF2A79CA8232 - 824bb49d5874415a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "2AA3F10A-C3E4-440C-AF36-AF2A79CA8232 - 7fc0aa98592ae399"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "151"
+                  endingLineNumber = "151"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "2AA3F10A-C3E4-440C-AF36-AF2A79CA8232 - 7fc0aa98592ae25b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "2AA3F10A-C3E4-440C-AF36-AF2A79CA8232 - 38143cc6ca815877"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "2AA3F10A-C3E4-440C-AF36-AF2A79CA8232 - 824bb49d58744135"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "2AA3F10A-C3E4-440C-AF36-AF2A79CA8232 - 7fc0aa98592ae27a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "152"
+                  endingLineNumber = "152"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "2AA3F10A-C3E4-440C-AF36-AF2A79CA8232 - 7fc0aa98592ae234"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "154"
+                  endingLineNumber = "154"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  uuid = "2AA3F10A-C3E4-440C-AF36-AF2A79CA8232 - 38143cc6ca815839"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "152"
+                  endingLineNumber = "152"
+                  offsetFromSymbolStart = "252">
+               </Location>
+               <Location
+                  uuid = "2AA3F10A-C3E4-440C-AF36-AF2A79CA8232 - 824bb49d5874417b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(10) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "152"
+                  endingLineNumber = "152"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "2AA3F10A-C3E4-440C-AF36-AF2A79CA8232 - 7fc0aa98592ae3b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "150"
+                  endingLineNumber = "150"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "2AA3F10A-C3E4-440C-AF36-AF2A79CA8232 - 7fc0aa98592ae27a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(11) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "152"
+                  endingLineNumber = "152"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1253A364-656D-4381-B017-85CD5EB42C29"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCASampleApp/PatientListReducer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "1253A364-656D-4381-B017-85CD5EB42C29 - 38143cc6ca8158b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "532">
+               </Location>
+               <Location
+                  uuid = "1253A364-656D-4381-B017-85CD5EB42C29 - 2979809b5ee08ff1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(12) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "1253A364-656D-4381-B017-85CD5EB42C29 - 2eef6865c5728f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(13) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "1253A364-656D-4381-B017-85CD5EB42C29 - 38143cc6ca815894"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "532">
+               </Location>
+               <Location
+                  uuid = "1253A364-656D-4381-B017-85CD5EB42C29 - 2979809b5ee08fd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(12) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "1253A364-656D-4381-B017-85CD5EB42C29 - 2eef6865c5728d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(13) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "1253A364-656D-4381-B017-85CD5EB42C29 - 38143cc6ca815856"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(9) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "544">
+               </Location>
+               <Location
+                  uuid = "1253A364-656D-4381-B017-85CD5EB42C29 - 2979809b5ee08f12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(12) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "1253A364-656D-4381-B017-85CD5EB42C29 - 2eef6865c572813"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(13) suspend resume partial function for closure #1 @Sendable (ComposableArchitecture.Send&lt;TCASampleApp.Feature.Action&gt;) async -&gt; () in closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "155"
+                  endingLineNumber = "155"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87CA57DA-9077-4EF4-8633-9BA422C5F1C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCASampleApp/PatientListReducer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "165"
+            endingLineNumber = "165"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "87CA57DA-9077-4EF4-8633-9BA422C5F1C6 - 483d2cc5ec5512a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "166"
+                  endingLineNumber = "166"
+                  offsetFromSymbolStart = "784">
+               </Location>
+               <Location
+                  uuid = "87CA57DA-9077-4EF4-8633-9BA422C5F1C6 - 483d2cc5ec5510b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "784">
+               </Location>
+               <Location
+                  uuid = "87CA57DA-9077-4EF4-8633-9BA422C5F1C6 - 483d2cc5ec5514d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "165"
+                  endingLineNumber = "165"
+                  offsetFromSymbolStart = "724">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0FF6CCA-D8E6-4BD0-8458-B1D669CEC69B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCASampleApp/PatientListReducer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F0FF6CCA-D8E6-4BD0-8458-B1D669CEC69B - 483d2cc5ec550c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "169"
+                  endingLineNumber = "169"
+                  offsetFromSymbolStart = "916">
+               </Location>
+               <Location
+                  uuid = "F0FF6CCA-D8E6-4BD0-8458-B1D669CEC69B - 483d2cc5ec550a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "170"
+                  endingLineNumber = "170"
+                  offsetFromSymbolStart = "916">
+               </Location>
+               <Location
+                  uuid = "F0FF6CCA-D8E6-4BD0-8458-B1D669CEC69B - 483d2cc5ec550e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "168"
+                  endingLineNumber = "168"
+                  offsetFromSymbolStart = "848">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F09E9D8D-47F9-42BE-B1CC-F8434E94BFA1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TCASampleApp/PatientListReducer.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "F09E9D8D-47F9-42BE-B1CC-F8434E94BFA1 - 483d2cc5ec551ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "162"
+                  endingLineNumber = "162"
+                  offsetFromSymbolStart = "672">
+               </Location>
+               <Location
+                  uuid = "F09E9D8D-47F9-42BE-B1CC-F8434E94BFA1 - 483d2cc5ec5518f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "163"
+                  endingLineNumber = "163"
+                  offsetFromSymbolStart = "672">
+               </Location>
+               <Location
+                  uuid = "F09E9D8D-47F9-42BE-B1CC-F8434E94BFA1 - 483d2cc5ec551d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (inout TCASampleApp.Feature.State, TCASampleApp.Feature.Action) -&gt; ComposableArchitecture.Effect&lt;TCASampleApp.Feature.Action&gt; in TCASampleApp.Feature.body.getter : some"
+                  moduleName = "TCASampleApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sj/code/ios/TCASampleApp/TCASampleApp/PatientListReducer.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "620">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

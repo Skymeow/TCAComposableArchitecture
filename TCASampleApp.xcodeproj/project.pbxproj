@@ -12,10 +12,23 @@
 		330708602B29340300DBD469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3307085F2B29340300DBD469 /* Assets.xcassets */; };
 		330708632B29340300DBD469 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 330708622B29340300DBD469 /* Preview Assets.xcassets */; };
 		3307086B2B29342400DBD469 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 3307086A2B29342400DBD469 /* ComposableArchitecture */; };
-		3307086D2B29360C00DBD469 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3307086C2B29360C00DBD469 /* NetworkManager.swift */; };
+		3307086D2B29360C00DBD469 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3307086C2B29360C00DBD469 /* APIManager.swift */; };
 		3307086F2B29375300DBD469 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3307086E2B29375300DBD469 /* Patient.swift */; };
 		330708712B293B9A00DBD469 /* PatientListReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330708702B293B9A00DBD469 /* PatientListReducer.swift */; };
+		330961F82B30270600EC0B73 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330961F72B30270600EC0B73 /* Cache.swift */; };
+		330962022B34010900EC0B73 /* TCASampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330962012B34010900EC0B73 /* TCASampleAppTests.swift */; };
+		3309620B2B341EE000EC0B73 /* Dependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3309620A2B341EE000EC0B73 /* Dependencies.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		330962032B34010900EC0B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330708502B29340200DBD469 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330708572B29340200DBD469;
+			remoteInfo = TCASampleApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		330708582B29340200DBD469 /* TCASampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCASampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,9 +36,13 @@
 		3307085D2B29340200DBD469 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3307085F2B29340300DBD469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		330708622B29340300DBD469 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3307086C2B29360C00DBD469 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3307086C2B29360C00DBD469 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		3307086E2B29375300DBD469 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
 		330708702B293B9A00DBD469 /* PatientListReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientListReducer.swift; sourceTree = "<group>"; };
+		330961F72B30270600EC0B73 /* Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		330961FF2B34010900EC0B73 /* TCASampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCASampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		330962012B34010900EC0B73 /* TCASampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCASampleAppTests.swift; sourceTree = "<group>"; };
+		3309620A2B341EE000EC0B73 /* Dependencies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dependencies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +54,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		330961FC2B34010900EC0B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -44,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				3307085A2B29340200DBD469 /* TCASampleApp */,
+				330962002B34010900EC0B73 /* TCASampleAppTests */,
 				330708592B29340200DBD469 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				330708582B29340200DBD469 /* TCASampleApp.app */,
+				330961FF2B34010900EC0B73 /* TCASampleAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,9 +89,11 @@
 				3307085D2B29340200DBD469 /* ContentView.swift */,
 				3307085F2B29340300DBD469 /* Assets.xcassets */,
 				330708612B29340300DBD469 /* Preview Content */,
-				3307086C2B29360C00DBD469 /* NetworkManager.swift */,
+				3307086C2B29360C00DBD469 /* APIManager.swift */,
 				3307086E2B29375300DBD469 /* Patient.swift */,
 				330708702B293B9A00DBD469 /* PatientListReducer.swift */,
+				330961F72B30270600EC0B73 /* Cache.swift */,
+				3309620A2B341EE000EC0B73 /* Dependencies.swift */,
 			);
 			path = TCASampleApp;
 			sourceTree = "<group>";
@@ -76,6 +104,14 @@
 				330708622B29340300DBD469 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		330962002B34010900EC0B73 /* TCASampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				330962012B34010900EC0B73 /* TCASampleAppTests.swift */,
+			);
+			path = TCASampleAppTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,6 +137,24 @@
 			productReference = 330708582B29340200DBD469 /* TCASampleApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		330961FE2B34010900EC0B73 /* TCASampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330962052B34010900EC0B73 /* Build configuration list for PBXNativeTarget "TCASampleAppTests" */;
+			buildPhases = (
+				330961FB2B34010900EC0B73 /* Sources */,
+				330961FC2B34010900EC0B73 /* Frameworks */,
+				330961FD2B34010900EC0B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330962042B34010900EC0B73 /* PBXTargetDependency */,
+			);
+			name = TCASampleAppTests;
+			productName = TCASampleAppTests;
+			productReference = 330961FF2B34010900EC0B73 /* TCASampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -108,11 +162,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					330708572B29340200DBD469 = {
 						CreatedOnToolsVersion = 14.3;
+					};
+					330961FE2B34010900EC0B73 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 330708572B29340200DBD469;
 					};
 				};
 			};
@@ -133,6 +191,7 @@
 			projectRoot = "";
 			targets = (
 				330708572B29340200DBD469 /* TCASampleApp */,
+				330961FE2B34010900EC0B73 /* TCASampleAppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -147,6 +206,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		330961FD2B34010900EC0B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -154,21 +220,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3307086D2B29360C00DBD469 /* NetworkManager.swift in Sources */,
+				3307086D2B29360C00DBD469 /* APIManager.swift in Sources */,
 				3307086F2B29375300DBD469 /* Patient.swift in Sources */,
 				330708712B293B9A00DBD469 /* PatientListReducer.swift in Sources */,
+				3309620B2B341EE000EC0B73 /* Dependencies.swift in Sources */,
 				3307085E2B29340200DBD469 /* ContentView.swift in Sources */,
+				330961F82B30270600EC0B73 /* Cache.swift in Sources */,
 				3307085C2B29340200DBD469 /* TCASampleAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		330961FB2B34010900EC0B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330962022B34010900EC0B73 /* TCASampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		330962042B34010900EC0B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330708572B29340200DBD469 /* TCASampleApp */;
+			targetProxy = 330962032B34010900EC0B73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		330708642B29340300DBD469 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -201,6 +286,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -229,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -261,6 +348,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -335,6 +423,47 @@
 			};
 			name = Release;
 		};
+		330962062B34010900EC0B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MX.com.TCASampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCASampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCASampleApp";
+			};
+			name = Debug;
+		};
+		330962072B34010900EC0B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MX.com.TCASampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TCASampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TCASampleApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -352,6 +481,15 @@
 			buildConfigurations = (
 				330708672B29340300DBD469 /* Debug */,
 				330708682B29340300DBD469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330962052B34010900EC0B73 /* Build configuration list for PBXNativeTarget "TCASampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330962062B34010900EC0B73 /* Debug */,
+				330962072B34010900EC0B73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

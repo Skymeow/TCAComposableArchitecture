@@ -29,6 +29,7 @@ extension Style {
     }
   }
 }
+
 struct ContentView: View {
   let store: StoreOf<FeatureViewModel>
 
@@ -72,9 +73,9 @@ struct ContentView: View {
 
           }
           .navigationTitle(viewStore.style.rawValue)
+          //task gets run when app enter foreground
           .task {
             await viewStore.send(.task).finish()
-
           }
         }
       }
@@ -120,3 +121,7 @@ struct ContentView_Previews: PreviewProvider {
       ], style: .blue), reducer: {FeatureViewModel()}))
     }
 }
+
+//#Preview {
+//  ContentView(store: <#T##StoreOf<FeatureViewModel>#>)
+//}

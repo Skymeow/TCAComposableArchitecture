@@ -13,7 +13,7 @@ import ComposableArchitecture
 
 //this is for cell to use, so we don't reply on data model
 //no action on cell now so it doesn't need to conform to Reducer
-struct PatientViewModel: Equatable, Identifiable {
+struct PatientViewModel: Equatable, Identifiable, Codable {
   var id: Int
   var patientName: String
   var dateOfBirth: String
@@ -21,7 +21,7 @@ struct PatientViewModel: Equatable, Identifiable {
   var email: String
 }
 
-enum Style: String, Equatable {
+enum Style: String, Equatable, Codable {
   case blue
   case green
   case red
@@ -29,14 +29,14 @@ enum Style: String, Equatable {
 }
 
 struct FeatureViewModel: Reducer {
-  struct State: Equatable {
+  struct State: Equatable, Codable {
     var selected: PatientViewModel? = nil
     var allPatients: [PatientViewModel] = []
     var style: Style = .clear
     var isLoading: Bool = false
   }
 
-  enum Action {
+  enum Action: Equatable {
     case selectPatient(_ patient: PatientViewModel)
     case allPatients([PatientViewModel])
     case task
@@ -62,8 +62,9 @@ struct FeatureViewModel: Reducer {
 }
 
 //combiner
-struct FeatureViewReducer: Reducer {
-  struct State: Equatable {
+@Reducer
+struct FeatureViewReducer {
+  struct State: Equatable, Codable {
     var viewModel: FeatureViewModel.State
     var dataSource: Feature.State
   }
@@ -94,7 +95,11 @@ struct FeatureViewReducer: Reducer {
         state.viewModel.style = Style(rawValue: style) ?? .clear
         return .none
       case .viewModel(.task):
-        return .send(.dataSource(.fetchAll))
+        if !state.viewModel.allPatients.isEmpty {
+          return .none
+        } else {
+          return .send(.dataSource(.fetchAll))
+        }
       case .viewModel(.reload):
         return .send(.dataSource(.fetchAll))
       case .viewModel, .dataSource:
@@ -108,18 +113,21 @@ struct FeatureViewReducer: Reducer {
 //datasource
 struct Feature: Reducer {
 
-  struct State: Equatable {
+  struct State: Equatable, Codable {
     var style: String = ""
     var patients: [Patient] = []
     var err: String = ""
   }
 //where to put the loading state? in action too?
-  enum Action {
+  enum Action: Equatable {
     case fetchAll
     case styleData(_ style: String)
     case patientData([Patient])
     case error(String)
   }
+
+  @Dependency(\.apiClient) var apiClient
+//  @Dependency(\.getStyleClient) var getStyleClient
 
   var body: some Reducer<State, Action> {
     Reduce { state, action in
@@ -127,7 +135,7 @@ struct Feature: Reducer {
       case .fetchAll:
         //pass in the state before send if you need to capture state
         return .run { send in
-          let styleResult = await APIManager().getStyle()
+          let styleResult = await apiClient.getStyle()
           switch styleResult {
           case .success(let style):
             await send(.styleData(style))
@@ -136,7 +144,8 @@ struct Feature: Reducer {
             await send(.error(error.localizedDescription))
           }
 
-          let patientResult = await APIManager().getPatients()
+          let patientResult = await apiClient.getPatients()
+
           switch patientResult {
           case .success(let patients):
             //send action back to reducer, once reducer finish processing it, update state
